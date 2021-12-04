@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en Us">
+   <head>
+       <link rel="stylesheet" href="Stylesheet.css">
+       <title>Form</title>
+   </head> 
+   <body>
+      <form action="https://www.linc.com/login.php"><p>
+        username:
+    <input type="text" name="Username"  size="15" maxlength="30">
+    </p>  
+    <p>password:
+    <input type="password" name="password" size="15" maxlength="8" required ="required">
+    </p>
+      </form>
+    <form action="https://www.linc.com/comments.php">
+    <p>What do you think of this gigs</p>
+    <textarea name="comments" cols="20" rows="4">Enter your comments</textarea>
+    </form>
+    <form action="https://www.linc.com/profile.php">
+     <p>Please select your favourite genre:
+     <br\>
+     <input type="radio" name="genre" value="rock" checked ="checked"/> Rock
+     <input type="radio" name="genre" value="pop"/> Pop
+     <input type="radio" name="genre" value="jazz"/> Jazz
+     </p>   
+    </form>
+    <form action="https://www.linc.com/profile.php">
+        <p>Please select your favourite music services:
+<br/>
+<input type="checkbox" name="services" value="itunes" checked ="checked"/> itunes
+<input type="checkbox" name="services" value="last fm" /> Last fm
+<input type="checkbox" name="services" value="spotify"/> Spotify
+        </p>
+        <form action="https://www.linc.com/profile.php">
+            <p>
+       What device do you listen music on: 
+            <select name="Devices">
+                <option value="ipod">ipod</option>
+                <option value="radio">Radio</option>
+                <option value="Computer">Computer</option>
+            </select>
+            </p>
+            <form action="https://www.linc.com/profile.php">
+                <p>
+               Do you play any of the following instruments:[You can choose more than one instrument]     
+                </p>
+                <select name="instruments" size="3" multiple ="multiple">
+                <option value="guitar" selected ="selected">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="keyboard">Keyboard</option>
+                <option value="Bass">Bass</option>
+                </select> 
+                <form action="https://www.linc.com/profile.php" method="post">
+                    <p>
+                        Upload Your song in mps format
+                        <input type="file" name="user-song"/> <br/>
+                        <input type="submit" name="upload"/>
+                    </p>
+                    <form action="https://www.linc.com/profile.php"></form> 
+<p>
+    Subscribe to our email list:
+</p>
+<input type="text" name="email"/>
+<input type="image" src="images/subscribe.jpg" width ="100" height="20"/>
+   </body>
+</html>
